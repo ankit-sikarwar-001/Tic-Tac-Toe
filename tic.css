@@ -27,8 +27,16 @@ body {
 }
 
 .box {
-    border: none;
+    /* border: none; */
     border-radius: 1rem;
     height: 18vmin;
     width: 18vmin;
+    background: #ffffc7;
+    color: #d57761;
+    font-size: 8vmin;
+}
+
+#reset>button {
+    padding: 1rem;
+    font-size: 1.25rem;
 }
