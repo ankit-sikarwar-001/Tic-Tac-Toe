@@ -39,4 +39,17 @@ body {
 #reset>button {
     padding: 1rem;
     font-size: 1.25rem;
+    background: #000;
+    color: white;
+    border-radius: 1rem;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+    margin-bottom: 20px;
+}
+
+.msgh {
+    display: none;
 }

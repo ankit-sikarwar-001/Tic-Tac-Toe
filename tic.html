@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="tic.css" />
   </head>
   <body>
-    <h2>Tic-Tac-Toe</h2>
-    <div class="container">
-      <div class="game">
-        <button class="box">X</button>
-        <button class="box">O</button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
+    <p class="msgh" id="msg">Winner</p>
+    <audio src="win-audio.wav"></audio>
+    <main>
+      <h1>Tic-Tac-Toe</h1>
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
       </div>
-    </div>
-    <div id="reset">
-      <button>Reset Game</button>
-    </div>
+      <div id="reset">
+        <button>Reset Game</button>
+      </div>
+    </main>
     <script src="tic.js"></script>
   </body>
 </html>
