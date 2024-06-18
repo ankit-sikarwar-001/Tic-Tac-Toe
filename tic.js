@@ -1,5 +1,7 @@
 let boxes = document.querySelectorAll(".box");
 let reset = document.querySelector("#reset");
+//reset button
+
 reset.addEventListener("click", () => {
   for (const res of boxes) {
     res.innerText = " ";
